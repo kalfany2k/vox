@@ -33,7 +33,7 @@ const GradientBackground = () => {
   }, []);
 
   return (
-    <div className="bg-gradient z-[-10]">
+    <div className="bg-gradient z-[-10] md:h-screen">
       <svg xmlns="http://www.w3.org/2000/svg">
         <defs>
           <filter id="goo">
@@ -52,14 +52,17 @@ const GradientBackground = () => {
           </filter>
         </defs>
       </svg>
-      <div className="gradient-container">
+      <div className="gradient-container md:h-full">
         <div className="gr1"></div>
         <div className="gr2"></div>
         <div className="gr3"></div>
         <div className="gr4"></div>
         <div className="gr5"></div>
         <div className="gr6"></div>
-        <div className="gr-interactive" id="gr-interactive"></div>
+        <div
+          className="gr-interactive hidden md:block"
+          id="gr-interactive"
+        ></div>
       </div>
     </div>
   );

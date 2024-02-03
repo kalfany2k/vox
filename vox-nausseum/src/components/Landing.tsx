@@ -11,7 +11,7 @@ function Landing({ currentPage }: Props) {
   return (
     <>
       <div
-        className="flex flex-col w-screen h-screen overflow-hidden"
+        className="flex flex-col w-screen h-[200vh] md:h-screen overflow-hidden"
         style={{ color: isFirefox ? "black" : "white" }}
       >
         <div className="w-screen h-24">

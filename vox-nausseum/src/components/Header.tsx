@@ -7,7 +7,7 @@ const Header = () => {
     <div className="h-24 w-screen font-Inter-xli opacity-80 flex flex-row items-center justify-left lg:justify-between overflow-hidden">
       <Link
         to={"/"}
-        className="w-[80%] md:w-[40%] xl:w-[20%] h-full mt-[-12px]"
+        className="w-[80%] sm:w-[70%] md:w-[40%] xl:w-[20%] h-full mt-[-12px]"
       >
         <img
           src={logo}
@@ -37,7 +37,7 @@ const Header = () => {
         </div>
       </div>
       <div className="w-[20%] hidden xl:flex justify-end justify-self-end">
-        <div className="text-center text-lg w-[40%] p-4 mr-10 rounded-[32px] text-white hover:text-black font-Inter-bold bg-black hover:bg-white ring-white hover:ring-black ring-1 cursor-pointer transition-colors duration-300 ease-in">
+        <div className="text-center text-lg w-[40%] p-4 mr-10 rounded-[32px] text-white hover:text-black font-Inter-bold bg-black/75 hover:bg-white/75 ring-white hover:ring-black ring-1 cursor-pointer transition-colors duration-300 ease-in">
           SUBMIT
         </div>
       </div>
