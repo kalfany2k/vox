@@ -4,7 +4,7 @@ import "../styles/navigation.scss";
 
 const Header = () => {
   return (
-    <div className="h-24 w-screen font-Inter-xli opacity-80 flex flex-row items-center justify-left lg:justify-between overflow-hidden">
+    <div className="h-24 w-screen font-Inter-xli flex flex-row items-center justify-left lg:justify-between overflow-hidden">
       <Link
         to={"/"}
         className="w-[80%] sm:w-[70%] md:w-[40%] xl:w-[20%] h-full mt-[-12px]"

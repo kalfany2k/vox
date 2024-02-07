@@ -82,4 +82,7 @@ body {
   color: #000000;
   /* @apply 
     bg-purple-400/10 */
+  margin: 0;
+  padding: 0;
+  @apply overflow-x-hidden;
 }
